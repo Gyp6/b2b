@@ -4,12 +4,12 @@
 
 
 
-❤️❤️❤️ Rostislav - Project Mentor
+## ❤️❤️❤️ Rostislav - Project Mentor
 
-❤️ Maria - PM
-❤️ K_Maks - TeamLead
-❤️ H_Maks - Primary Dev
-❤️ Sophia - Secondary Dev
-❤️ Ivan - QA/QX Testing Dev
+- ❤️ _Maria_ - PM
+- ❤️ _K_Maks_ - TeamLead
+- ❤️ _H_Maks_ - Primary Dev
+- ❤️ _Sophia_ - Secondary Dev
+- ❤️ _Ivan_ - QA/QX Testing Dev
 
-Baked with ❤️ by Gypsies.sale group
+## Baked with ❤️ by *Gypsies.sale* group
