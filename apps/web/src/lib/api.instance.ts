@@ -1,5 +1,5 @@
-import { API_PAGES } from "@/constants/pages.constant";
-import axios from "axios";
+import { API_PAGES } from '@/constants/pages.constant';
+import axios from 'axios';
 
 export const axiosInstance = axios.create({
   baseURL: API_PAGES.BASE_URL,
@@ -14,15 +14,15 @@ export const fetcher = async <T>(
   const res = await fetch(fullUrl, {
     ...options,
     headers: {
-      "Content-Type": "application/json",
-      "x-api-secret": process.env.INTERNAL_API_KEY as string,
+      'Content-Type': 'application/json',
+      'x-api-secret': process.env.INTERNAL_API_KEY as string,
       ...options?.headers,
     },
   });
 
   if (!res.ok) {
     const error = await res.json();
-    throw new Error(error.message || "Server error");
+    throw new Error(error.message || 'Server error');
   }
 
   return res.json();

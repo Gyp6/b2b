@@ -1,1 +1,1 @@
-export const NAVIGATION_CONFIG = {}
+export const NAVIGATION_CONFIG = {};

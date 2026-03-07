@@ -1,23 +1,23 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.scss";
-import "./tailwind.css";
+import type { Metadata } from 'next';
+import localFont from 'next/font/local';
+import './globals.scss';
+import './tailwind.css';
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+  src: './fonts/GeistVF.woff',
+  variable: '--font-geist-sans',
 });
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+  src: './fonts/GeistMonoVF.woff',
+  variable: '--font-geist-mono',
 });
 
 export const metadata: Metadata = {
   title: {
-    default: "Gyp6.sale - B2B Marketplace",
-    template: "%s | Gyp6.sale - B2B Marketplace",
+    default: 'Gyp6.sale - B2B Marketplace',
+    template: '%s | Gyp6.sale - B2B Marketplace',
   },
-  description: "Gyp6.sale - B2B Marketplace",
+  description: 'Gyp6.sale - B2B Marketplace',
 };
 
 export default function RootLayout({

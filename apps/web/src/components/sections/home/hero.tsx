@@ -1,14 +1,10 @@
-import { Section } from '@/components/layout/section'
-import { cn } from '@/lib/utils.lib'
+import { Section } from '@/components/layout/section';
+import { cn } from '@/lib/utils.lib';
 
 interface Props {
-	className?: string;
+  className?: string;
 }
 
 export const HomeHero = ({ className }: Props) => {
-	return (
-		<Section className={cn('', className)}>
-			
-		</Section>
-	);
+  return <Section className={cn('', className)}></Section>;
 };

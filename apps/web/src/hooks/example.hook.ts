@@ -1,9 +1,7 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export const useExample = () => {
-	useEffect(() => {
-		
-	}, []);
+  useEffect(() => {}, []);
 
-	return {};
+  return {};
 };

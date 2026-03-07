@@ -1,13 +1,9 @@
-import { cn } from '@/lib/utils.lib'
+import { cn } from '@/lib/utils.lib';
 
 interface Props {
-	className?: string;
+  className?: string;
 }
 
 export const Header = ({ className }: Props) => {
-	return (
-		<header className={cn('', className)}>
-			
-		</header>
-	);
+  return <header className={cn('', className)}></header>;
 };

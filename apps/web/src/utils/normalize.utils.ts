@@ -1,1 +1,1 @@
-export const normalize = (p: string) => p.replace(/\/$/, "");
+export const normalize = (p: string) => p.replace(/\/$/, '');
